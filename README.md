@@ -74,19 +74,9 @@ $$ Q=XW_Q,\quad K=XW_K,\quad V=XW_V $$
 
 [Understanding Deep Learning Book By Simon Jd Prince, ('tc') | Indigo](https://images.openai.com/static-rsc-4/_gQyQLbAfvLhdDPtDLQvzDjACWOAmfC9bL6CpRtIy6Dug9SkfMarugwE9X3z7IZnVl0pb512twHUSI7hToq3ir3AHwmdw4EtE1IaOhwBW6LTJle73je7WMPgCeWoucRnFD9uJVs0qfGv0qYk5M05A2mVhleylGodg0yQzx4XSzg?purpose=inline)
 
-Understanding Deep Learning
-
-Simon J. D. Prince · MIT Press，2023
-
 这是一本深度学习教材，而不是纯数学教材，但它非常适合把导数、梯度和链式法则应用到神经网络训练。
 
 重点阅读第 5～7 章：损失函数、模型训练、梯度与初始化。
-
-[官方免费 PDF、练习与代码](https://udlbook.github.io/udlbook/)&#x20;
-
-[image](https://www.google.com/s2/favicons?domain=https://udlbook.github.io\&sz=32)
-
-udlbook.github.io
 
 
 
@@ -94,11 +84,11 @@ udlbook.github.io
 
 需要达到的能力包括能够独立推导：
 
-\\[ \nabla_x(x^\top Ax)=(A+A^\top)x \\]
+$$ \nabla_x(x^\top Ax)=(A+A^\top)x $$
 
 以及复合函数求导：
 
-\\[ \frac{\partial\mathcal L}{\partial W} = \frac{\partial\mathcal L}{\partial y} \frac{\partial y}{\partial W} \\]
+$$ \frac{\partial\mathcal L}{\partial W} = \frac{\partial\mathcal L}{\partial y} \frac{\partial y}{\partial W} $$
 
 这里的符号表示示意性的链式求导，具体矩阵形式取决于采用的 Jacobian 布局约定。
 
@@ -114,29 +104,18 @@ udlbook.github.io
 
 [Probabilistic Machine Learning by Kevin P. Murphy (Hardback) - Penguin Books Australia](https://images.openai.com/static-rsc-4/v9y4Y1i0LZLSHSUvN1ae6eGcYcOlf5eA47KGsPaWdUgXAz3rRhP-kKCjCgjyyaUTNgu27KhdoGCc35TUkjDRa0cB0QV5itGraye80Xsa88hvzr6fcIQLIIT-Bi5kIE9dNwn7u-XEqlgDSWaI6pQeRIWMVES-upF8E3bZMVNIt5w?purpose=inline)
 
-Probabilistic Machine Learning: An Introduction
-
-Kevin P. Murphy · MIT Press，2022
 
 从概率建模和贝叶斯决策的角度讲解机器学习。包含概率分布、概率推断、优化与神经网络等内容，非常适合进阶。
-
-[官方免费 PDF、代码及练习](https://probml.github.io/book1)&#x20;
-
-[image](https://www.google.com/s2/favicons?domain=https://probml.github.io\&sz=32)
-
-probml.github.io
-
-
 
 重点掌握： 随机变量、联合分布、条件分布、高斯分布、多元高斯分布、贝叶斯公式、MLE、MAP、期望、方差和协方差。
 
 尤其要熟练掌握贝叶斯公式：
 
-\\[ p(\theta\mid D)= \frac{p(D\mid\theta)p(\theta)}{p(D)} \\]
+$$ p(\theta\mid D)= \frac{p(D\mid\theta)p(\theta)}{p(D)} $$
 
 以及多元高斯分布：
 
-\\[ p(x)=\frac{1}{(2\pi)^{d/2}|\Sigma|^{1/2}} \exp\left[ -\frac12(x-\mu)^\top\Sigma^{-1}(x-\mu) \right] \\]
+$$ p(x)=\frac{1}{(2\pi)^{d/2}|\Sigma|^{1/2}} \exp\left[ -\frac12(x-\mu)^\top\Sigma^{-1}(x-\mu) \right] $$
 
 这些知识不仅用于生成模型，也会在机器人状态估计、高斯过程、世界模型和不确定性建模中大量出现。
 
@@ -171,37 +150,27 @@ Numerical Optimization，作者 Jorge Nocedal、Stephen J. Wright。
 
 ["Elements of Information Theory" von Thomas M. Cover Buch auf Englisch - bücher.de](https://images.openai.com/static-rsc-4/z1sG6lALKgw5xNGwHsCok7sUg2zi7Vz27ze2MrIiFdJShgCahvikOIQwXofRSM8g7Okha1dUx-qS-UJeiQAliwbw6UGBydeQG6rcyyz9EOJzQCfQ9aR-IdIoPx0KroAj9RdZWjJHQLz1zegaigFpzz66aflYX9k4OHVLpldswVo?purpose=inline)
 
-Elements of Information Theory
-
-Thomas M. Cover、Joy A. Thomas · 第二版
 
 信息论经典教材，建议先阅读第 2 章关于熵、相对熵、互信息的内容，其余部分根据研究需要再深入。
-
-[Wiley 官方教材主页](https://onlinelibrary.wiley.com/doi/book/10.1002/047174882X)&#x20;
-
-[image](https://www.google.com/s2/favicons?domain=https://onlinelibrary.wiley.com\&sz=32)
-
-Wiley Online Books
-
 
 
 重点掌握三个数学概念：
 
 信息熵
 
-\\[ H(X)=-\sum_xp(x)\log p(x) \\]
+$$ H(X)=-\sum_xp(x)\log p(x) $$
 
 交叉熵
 
-\\[ H(p,q)=-\sum_xp(x)\log q(x) \\]
+$$ H(p,q)=-\sum_xp(x)\log q(x) $$
 
 KL 散度
 
-\\[ D\_{\mathrm{KL}}(p\\|q) = \sum_xp(x)\log\frac{p(x)}{q(x)} \\]
+$$ D\_{\mathrm{KL}}(p\\|q) = \sum_xp(x)\log\frac{p(x)}{q(x)} $$
 
 需要理解它们之间的关系：
 
-\\[ H(p,q)=H(p)+D\_{\mathrm{KL}}(p\\|q) \\]
+$$ H(p,q)=H(p)+D\_{\mathrm{KL}}(p\\|q) $$
 
 这一部分直接对应大语言模型训练中的交叉熵损失，以及变分推断、生成模型和分布对齐方法。
 
@@ -211,18 +180,7 @@ KL 散度
 
 [Reinforcement Learning, second edition by Richard S. Sutton - Penguin Books Australia](https://images.openai.com/static-rsc-4/vUw2hs6UkQDxM3Wldo6IvljKjcSEbeSO1SUBQCLJjLOAT52xlsicEutCQIJdv6fSyZtBSFhCEEGo7FIWysxh7rlIdDymCeA646yQh91KpSipPwaHsCVLdD7FxGd0Fw0sxXKnXdTRhgqERCdRMRVAw3rOKNv33QqPPXj3VDS6wbs?purpose=inline)
 
-Reinforcement Learning: An Introduction
-
-Richard S. Sutton、Andrew G. Barto · 第二版，2018
-
 这是强化学习教材，不是完整的随机过程教材，但非常适合以机器人学习为目标，掌握 MDP、价值函数、Bellman 方程和策略学习的数学基础。
-
-[MIT Press 官方教材主页](https://mitpress.mit.edu/9780262039246/reinforcement-learning/)&#x20;
-
-[image](https://www.google.com/s2/favicons?domain=https://mitpress.mit.edu\&sz=32)
-
-MIT Press
-
 
 
 建议重点阅读第 3～6 章：
@@ -236,7 +194,7 @@ MIT Press
 
 这里需要掌握的核心对象是：
 
-\\[ \mathcal M=(\mathcal S,\mathcal A,P,R,\gamma) \\]
+$$ \mathcal M=(\mathcal S,\mathcal A,P,R,\gamma) $$
 
 分别表示状态空间、动作空间、状态转移概率、奖励函数和折扣因子。
 
@@ -250,43 +208,26 @@ MIT Press
 
 [Free Shipping! Modern Robotics: Mechanics, Planning, and Control, (Hardcover) - Walmart.com - Walmart.com](https://images.openai.com/static-rsc-4/FKNEasGvlVgZ8YfNdyuIjHrchAwYbpbj4NUgcuM2tWqVM50fpJ0_9uowXrcYM58wq9lDoV_T_0Ynj7bE5jMCoU3QLNnIU9_-CRcKyqjmBNI2SW4tmNXJ3xyb5HHRsOmJwRsRASW7829X33LtczKAuDzBfB9kPpciS132bs3qwCU?purpose=inline)
 
-Modern Robotics: Mechanics, Planning, and Control
-
-Kevin M. Lynch、Frank C. Park · 2017
 
 首先学习第 2～5 章，理解构型空间、刚体运动、正运动学与速度运动学。
 
-[官方免费教材及视频](https://modernrobotics.northwestern.edu/)&#x20;
-
-[image](https://www.google.com/s2/favicons?domain=https://hades.mech.northwestern.edu\&sz=32)
-
-Northwestern Mechatronics Wiki
 
 
 
 [State Estimation for Robotics : Second Edition (Hardcover, 2 Revised edition) | Timothy D. Barfoot | 알라딘](https://images.openai.com/static-rsc-4/xS6nv7j4jtRL4IsO6Fucwz5z5828kVDdHM5ezvE_QcpQIprEJhvJz-cQ-FozeH4auMnNka5WkEN22OFtYNxKSuGsVBqGKd2m1-nYiHMImC9IxR6s0zbcb9fkHlZGC_xDZ_tXrE9HFbZ1TqsbWsFFqIBrI6GomdoXrCJbvkRBYfo?purpose=inline)
 
-State Estimation for Robotics
-
-Timothy D. Barfoot · 第二版，2024
 
 进阶教材，系统联系机器人状态估计、概率模型与几何，适合研究三维空间定位、位姿估计和多传感器融合。
-
-[作者主页及教材资源](https://asrl.utias.utoronto.ca/~tdb/)&#x20;
-
-[image](https://www.google.com/s2/favicons?domain=https://asrl.utias.utoronto.ca\&sz=32)
-
-asrl.utias.utoronto.ca
 
 
 
 需要重点掌握：
 
-\\[ SO(3)=\\{R\in\mathbb R^{3\times3}:R^\top R=I,\det R=1\\} \\]
+$$ SO(3)=\\{R\in\mathbb R^{3\times3}:R^\top R=I,\det R=1\\} $$
 
 以及齐次变换矩阵：
 
-\\[ T= \begin{bmatrix} R&p\\\ 0&1 \end{bmatrix} \in SE(3) \\]
+$$ T= \begin{bmatrix} R&p\\\ 0&1 \end{bmatrix} \in SE(3) $$
 
 这部分能够将抽象的数学概念直接连接到机器人位置、姿态、运动控制和三维视觉。
 
