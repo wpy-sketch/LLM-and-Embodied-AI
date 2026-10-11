@@ -1,2 +1,2 @@
 # LLM-and-Embodied-AI
-learning for LLM and Embodied AI
+learning LLM and Embodied AI
