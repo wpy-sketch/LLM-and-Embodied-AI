@@ -12,8 +12,6 @@
 
 如果只想先选择三本，我推荐下面这组：
 
-[Free Shipping! Mathematics for Machine Learning, (Paperback) - Walmart.com - Walmart.com](https://images.openai.com/static-rsc-4/gW5z9vH3ekrQxRliclq66trOzu1XVXmppY3ro15VwKNVRvFxKL1UgPhSofUfkjr03Kz5XduLfmxF6zfx2nr99EanVtyAY3xhlyxn-VerWI8kPho71j1jWgwM3IM9eEkcoc5Nuc4jsb4UTRirBJK9dwqUZm6SPRjv2sIICrCHQEk?purpose=inline)
-
 1\. Mathematics for Machine Learning
 
 Deisenroth、Faisal、Ong · Cambridge University Press · 2020
@@ -21,16 +19,6 @@ Deisenroth、Faisal、Ong · Cambridge University Press · 2020
 最推荐的第一本
 
 机器学习数学的综合入门教材，包括线性代数、解析几何、矩阵分解、向量微积分、概率分布和连续优化。
-
-[官方主页及免费 PDF](https://mml-book.com/)&#x20;
-
-[image](https://www.google.com/s2/favicons?domain=https://mml-book.com\&sz=32)
-
-Mathematics for Machine Learning
-
-
-
-[People ask me about getting started with data science all the time. So I came up with three paths fo... - 🔥Kareem Carr 🔥 | Rattibha](https://images.openai.com/static-rsc-4/jyQqzkIh6AoZV-sInMZYLmBlKhuysxdCLw9PMze-M7agaei6j6R6YlKmAnyk-iRgpJ3wCKX85lSw0jPpg_vTlPW2klGn0ERCm6dpm-G-r6UnFWDWO315qtuocQZTMKkUDB5CdReapogFVI2Qi5n4tgAOUhx3WEB-zNTDAO3Uco0?purpose=inline)
 
 2\. Introduction to Probability
 
@@ -40,16 +28,6 @@ Joseph K. Blitzstein、Jessica Hwang · 第二版
 
 非常适合建立条件概率、随机变量、期望、条件期望和贝叶斯推断的直觉，为生成模型、概率学习与强化学习打基础。
 
-[Harvard Stat 110：免费教材与视频](https://stat110.hsites.harvard.edu/)&#x20;
-
-[image](https://www.google.com/s2/favicons?domain=https://stat110.hsites.harvard.edu\&sz=32)
-
-Statistics 110: Probability
-
-
-
-[Convex Optimization - ISBN13:9780521833783 - 澜瑞外文-网上购买外文原版进口图书 LANREE](https://images.openai.com/static-rsc-4/BIMvIbkuy-hmLx6J7W-FRMoFeDe0vV5m7O3B6AN-bowj4ujUnhN7RAb0lWaUCm6t-24co4-1AoRa5XU5wLRv874XxXWFL9DP8FD2vXLBTekTqnwitqbf1bXuEDJAYhSagiArgN-b8CTdBSKSoT_3km3xT0EmC8lyOYbYJ136T-k?purpose=inline)
-
 3\. Convex Optimization
 
 Stephen Boyd、Lieven Vandenberghe · Cambridge University Press
@@ -57,14 +35,6 @@ Stephen Boyd、Lieven Vandenberghe · Cambridge University Press
 优化理论首选
 
 系统讲解凸集、凸函数、对偶理论、KKT 条件以及数值优化方法，数学推导严谨，也适合控制与机器人研究。
-
-[Stanford 官方免费 PDF 与课件](https://web.stanford.edu/~boyd/cvxbook/)&#x20;
-
-[image](https://www.google.com/s2/favicons?domain=https://web.stanford.edu\&sz=32)
-
-Boyd and Vandenberghe
-
-
 
 这三本书不是要求全部逐页读完。《Mathematics for Machine Learning》作为数学总纲，其余教材用于专题深入，效率最高。
 
@@ -76,33 +46,13 @@ Boyd and Vandenberghe
 
 [Introduction to Linear Algebra: Sixth Edition](https://images.openai.com/static-rsc-4/fJdmNThV-aFg0FXKpXjUhnDmRlE4Y-o_gwkJex9Jpym9GCHn-dI4LAj6xmOj_HGDM9tnmK0w9bhsXrVY7-4Lh9LZtzI68NPjRO-Y7tWtR7qNPiPpA2vZlEU-c1JuXykcD0RCJgoOWGbVg_QGShYCqlaDi9Z0PK-7f2XNg6zkZH0?purpose=inline)
 
-Introduction to Linear Algebra
-
-Gilbert Strang · 第六版，2023
-
 推荐作为系统学习线性代数的主教材。配合 MIT 18.06 课程，尤其适合建立对矩阵、线性变换、特征值和奇异值分解的直观理解。
-
-[出版社及教材信息](https://wellesleycambridge.com/)&#x20;
-
-[image](https://www.google.com/s2/favicons?domain=https://wellesleycambridge.com\&sz=32)
-
-wellesleycambridge.com
-
 
 
 [Introduction to Applied Linear Algebra – Vectors, Matrices, and Least Squares](https://images.openai.com/static-rsc-4/c84_PimapRdpO9cy0tC903iuZosoUIXMDfQ6l1eONmM6Cy4DosqO9cElsE2GXPpzrEUCPK_fYUcWWdIqsahD4IvRgH7v6FDE1hrZ-tVgcKGtjwecKRcah39fnHEhu-CNqciB5QHxj9NWtZXbP9iTpQu_-e1X0VzhiHtzSfVDaVA?purpose=inline)
 
-Introduction to Applied Linear Algebra
-
-Stephen Boyd、Lieven Vandenberghe
 
 更偏工程应用，包括向量、矩阵、最小二乘和数值计算。适合希望将线性代数直接应用到机器学习和机器人算法中的学习者。
-
-[Stanford 官方免费 PDF](https://web.stanford.edu/~boyd/vmls/)&#x20;
-
-[image](https://www.google.com/s2/favicons?domain=https://www.web.stanford.edu\&sz=32)
-
-Vectors, Matrices, and Least Squares
 
 
 
@@ -110,9 +60,9 @@ Vectors, Matrices, and Least Squares
 
 对应的典型问题是：
 
-\\[ Q=XW_Q,\quad K=XW_K,\quad V=XW_V \\]
+$$ Q=XW_Q,\quad K=XW_K,\quad V=XW_V $$
 
-以及为什么 Attention 使用矩阵 \\(QK^\top\\) 来计算相关性。
+以及为什么 Attention 使用矩阵 $QK^\top$ 来计算相关性。
 
 建议选择 Strang 或 Boyd 的一本作为主教材，另一本文献用于查缺补漏。
 
